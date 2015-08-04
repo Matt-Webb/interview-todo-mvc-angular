@@ -1,4 +1,4 @@
-#Interview Task
+# Interview Task
 
 This is a standard Todo app from [Todo mvc](http://todomvc.com/) ported into a component based structure. It is using [browserify](http://browserify.org/) ang a [gulp](http://gulpjs.com/) pipeline to bring the project to life. Browserify expects [commonjs](https://nodejs.org/docs/latest/api/modules.html) node's module pattern in order to traverse and concatenate the modules. 
 
@@ -6,7 +6,7 @@ To bring up the project frist run `npm install` to install all the node modules 
 
 Consider it as a task given from a product owner on an existing codebase to you as a part of the dev team. Time management and task prioritization should be in mind.
 
-###Part 1
+### Part 1
 ---
 
 	1. Make the code modular, maintainable, testable, improve readability and extensibility
@@ -15,7 +15,7 @@ Consider it as a task given from a product owner on an existing codebase to you 
 
 	3. Feel free to add more tasks to the build process that you think they would benefit the codebase
 
-###Part 2
+### Part 2
 ---
 
 	1. Using WHAPI get all the in-play events and add them as tasks in the the Todo, there shouldnt be any duplicates after reloading and maintaining their state in localstorage is a requirement.
