@@ -6,6 +6,8 @@ To bring up the project frist run `npm install` to install all the node modules 
 
 Consider it as a task given from a product owner on an existing codebase to you as a part of the dev team. Time management and task prioritization should be in mind.
 
+Consider that you are working in a team with other developers. Use a branching strategy that prevents or minimises code conflicts and promotes isolation and independence. Like [gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
+
 ### Part 1
 ---
 
