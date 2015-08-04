@@ -1,23 +1,31 @@
-This is a standard Todo app from http://todomvc.com/ ported into a component based structure. It is using browserify ang a gulp pipeline to bring the project to life. Browserify expects commonjs (nodejs) module exports pattern in order to traverse and concatenate the modules. To bring up the project use "gulp dev". Feel free to explore the gulp tasks. Consider it as a task given from a product owner on an existing codebase to you as a part of the dev team. Consider of time management and task prioritization. Given that there is two parts do them in whatever order you want.
+#Interview Task
 
-Part 1
+This is a standard Todo app from [Todo mvc](http://todomvc.com/) ported into a component based structure. It is using [browserify](http://browserify.org/) ang a [gulp](http://gulpjs.com/) pipeline to bring the project to life. Browserify expects [commonjs](https://nodejs.org/docs/latest/api/modules.html) node's module pattern in order to traverse and concatenate the modules. 
 
-	1) Make the code modular, maintainable, testable, improve readability and extensibility
+To bring up the project frist run `npm install` to install all the node modules required and then use `gulp dev`. Feel free to explore and modify the gulp tasks. 
 
-	2) Apply best practices and standards
+Consider it as a task given from a product owner on an existing codebase to you as a part of the dev team. Time management and task prioritization should be in mind.
 
-	3) Feel free to add more tasks to the build process that you think they would benefit the codebase
+###Part 1
+---
 
-Part 2
+	1. Make the code modular, maintainable, testable, improve readability and extensibility
 
-	1) Using WHAPI get all the in-play events and add them as tasks in the the Todo, there shouldnt be any duplicates after reloading and maintaining their state in localstorage is a requirement.
+	2. Apply best practices and standards
 
-	2) If the task is a william hill event please add a button of show/hide and on click this should display he following information per design.
+	3. Feel free to add more tasks to the build process that you think they would benefit the codebase
 
-	3) Create an extra filter which displays only the in-play tasks
+###Part 2
+---
 
-	4) Create an extra filter that displays only the events that have already started
+	1. Using WHAPI get all the in-play events and add them as tasks in the the Todo, there shouldnt be any duplicates after reloading and maintaining their state in localstorage is a requirement.
 
-	5) Please display on the event row the elapsed time of the match in a human readable format like HH:mm. If the match hasnt started please display the time left to start in a human readable format
+	2. If the task is a william hill event please add a button of show/hide and on click this should display he following information per design.
 
-	8) Compress and transfer the artefact on this remote using these credentials. Deflate the artefact under your home folder and give the script these permissions and change the owner to jenkins
+	3. Create an extra filter which displays only the in-play tasks
+
+	4. Create an extra filter that displays only the events that have already started
+
+	5. Please display on the event row the elapsed time of the match in a human readable format like HH:mm. If the match hasnt started please display the time left to start in a human readable format
+
+	8. Compress and transfer the artefact on this remote using these credentials. Deflate the artefact under your home folder and give the script these permissions and change the owner to jenkins
