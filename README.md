@@ -4,36 +4,41 @@ This is a standard Todo app from [Todo mvc](http://todomvc.com/) ported into a c
 
 [Lodash](https://lodash.com/) and [moment](http://momentjs.com/) are already available within the build you can just require them within the module you are working on.
 
-To bring up the project frist run `npm install` to install all the node modules required and then use `gulp dev`. Feel free to explore and modify the gulp tasks. 
+To bring up the project first run `npm install` to install all the node modules required and then use `gulp dev`. You can run the tests running `gulp test`.
 
-Consider it as a task given from a product owner on an existing codebase to you as a part of the dev team. Time management and task prioritization should be in mind.
+Consider the following as a task given from a product owner, on an existing codebase, to you working in a team with other developers. Feel free to treat the interviewing developers as teammates, ask them any question you like. You can use any resource you want but keep in mind that you are required to work on this task alone and make sure you understand every bit of code you bring into the codebase.
 
-Consider that you are working in a team with other developers. Use a branching strategy that prevents or minimises code conflicts and promotes isolation and independence. Like [gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
+Time management and task prioritization should be kept in mind.
 
-### Part 1
+Use a branching strategy that prevents or minimises code conflicts and promotes isolation and independence. Like [gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
+
 ---
 
-1. Make the code modular, maintainable, testable, improve readability and extensibility
+Please now continue with the following tasks, in the order of your choosing. Enjoy!
 
-2. Apply best practices and standards
-
-3. Feel free to add more tasks to the build process that you think they would benefit the codebase
-
-### Part 2
+### Refactoring
 ---
 
-1. Using WHAPI get all the in-play events and add them as tasks in the the Todo, there shouldnt be any duplicates after reloading and maintaining their state in localstorage is a requirement.
+* Improve the code, focussing on modularity, maintainability, testability, readability and extensibility
 
-2. If the task is a william hill event please add a button of show/hide and on click this should display he following information per design.
+* While refactoring, try to apply best practices and standards, and make notes / prepare to discuss your changes
 
-3. Create an extra filter which displays only the in-play tasks
+* Explore the gulp tasks and see whether you're happy with them. If you feel anything is missing, please add new tasks or at least note which tasks you would want to add
 
-4. Create an extra filter that displays only the events that have already started
+### Enhancements
+---
 
-5. Please display on the event row within the extra information the elapsed time of the match in a human readable format like HH:mm. If the match hasn't started please display the time left to start in a human readable format. The timer should appear on the same line as the name of the event only when the size of the screen is greater than 728px;
+* Using WHAPI get all the in-play events and add them as tasks in the the Todo, there shouldnt be any duplicates after reloading and maintaining their state in localstorage is a requirement.
 
-6. Compress and transfer the artefact on this remote using these credentials. Deflate the artefact under your home folder and give the script these permissions and change the owner to jenkins
+* If the task is a William Hill event please add a button of show/hide and on click this should display extra information, as per the design.
 
-### Design
+* Create an extra filter which displays only the in-play tasks
 
+* Create an extra filter that displays only the events that have already started
+
+* Please display within the extra details of an event task the elapsed time of the match in a human readable format. If the match hasn't started please display the time left to the start, in a human readable format. If the size of the screen is greater than 728px then the time elapsed should be displayed on the same level as the name of the event.
+
+* Compress and transfer the artefact on this remote using these credentials. Deflate the artefact under your home folder and give the script these permissions and change the owner to jenkins
+
+### Design 
 ![alt text](http://gitlab.williamhill-dev.local/lpapazianis/interview-todo-mvc-angular/raw/master/designs/to-do-all-01.png "Logo Title Text 1")
