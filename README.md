@@ -6,9 +6,11 @@ This is a standard Todo app from [Todo mvc](http://todomvc.com/) ported into a c
 
 To bring up the project first run `npm install` to install all the node modules required and then use `gulp dev`.
 
-Consider it as a task given from a product owner on an existing codebase to you as a part of the dev team. Time management and task prioritization should be in mind.
+Consider the following as a task given from a product owner, on an existing codebase, to you working in a team with other developers.
 
-Consider that you are working in a team with other developers. Use a branching strategy that prevents or minimises code conflicts and promotes isolation and independence. Like [gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
+Time management and task prioritization should be kept in mind.
+
+Use a branching strategy that prevents or minimises code conflicts and promotes isolation and independence. Like [gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
 
 ---
 
