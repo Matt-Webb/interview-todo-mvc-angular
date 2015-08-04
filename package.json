@@ -1,0 +1,110 @@
+{
+  "name": "seed",
+  "version": "0.0.1",
+  "author": "Leon Papazianis <l.papazianis@gmail.com>",
+  "license": "proprietary",
+  "devDependencies": {
+    "browserify": "5.11.2",
+    "browserify-ngannotate": "0.2.0",
+    "browserify-shim": "3.7.0",
+    "connect-modrewrite": "0.7.9",
+    "del": "1.1.1",
+    "grunt": "0.4.5",
+    "gulp": "3.8.11",
+    "gulp-angular-templatecache": "1.6.0",
+    "gulp-callback": "0.0.3",
+    "gulp-concat": "2.4.0",
+    "gulp-concat-css": "0.1.4",
+    "gulp-connect": "2.0.6",
+    "gulp-insert": "0.4.0",
+    "gulp-install": "0.2.0",
+    "gulp-jshint": "1.8.4",
+    "gulp-karma": "0.0.4",
+    "gulp-less": "1.3.5",
+    "gulp-less-sourcemap": "1.3.3",
+    "gulp-livereload": "3.8.0",
+    "gulp-minify-css": "0.3.8",
+    "gulp-ng-annotate": "0.5.2",
+    "gulp-ngdocs": "0.2.10",
+    "gulp-notify": "^2.2.0",
+    "gulp-open": "0.3.2",
+    "gulp-sourcemaps": "1.1.5",
+    "gulp-uglify": "1.0.1",
+    "gulp-util": "3.0.1",
+    "gulp-wait": "0.0.2",
+    "gulp-watch": "4.2.4",
+    "gulp-zip": "2.0.2",
+    "jasmine-core": "2.2.0",
+    "karma": "0.12.24",
+    "karma-browserify": "4.0.0",
+    "karma-jasmine": "0.3.5",
+    "karma-phantomjs-launcher": "0.1.4",
+    "karma-spec-reporter": "0.0.13",
+    "lodash": "2.4.1",
+    "merge-stream": "0.1.7",
+    "minifyify": "4.2.0",
+    "ng-annotate": "0.10.0",
+    "require-dir": "0.1.0",
+    "run-sequence": "1.0.2",
+    "vinyl-paths": "1.0.0",
+    "vinyl-source-stream": "1.0.0"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim",
+      "browserify-ngannotate"
+    ]
+  },
+  "browser": {
+    "lodash": "./node_modules/lodash/lodash.js",
+    "angular": "./node_modules/angular/angular.min.js",
+    "ui-router": "./node_modules/angular-ui-router/release/angular-ui-router.min.js",
+    "angular-animate":"./node_modules/angular-animate/angular-animate.min.js",
+    "todomvc-common":"./node_modules/todomvc-common/base.js"
+  },
+  "browserify-shim": {
+    "lodash": {
+      "exports": "_"
+    },
+    "moment": {
+      "exports": "moment"
+    },
+    "angular": {
+      "exports": "angular"
+    },
+    "angular-animate": {
+      "depends": [
+        "angular"
+      ],
+      "exports": null
+    },
+    "ui-router": {
+      "depends": [
+        "angular"
+      ],
+      "exports": null
+    },
+    "namespacer": {
+      "depends": [
+        "angular"
+      ],
+      "exports": null
+    },
+    "todomvc-common": {
+      "exports": null
+    }
+  },
+  "dependencies": {
+    "angular": "1.3.0",
+    "angular-animate": "1.3.0",
+    "angular-mocks": "1.3.0",
+    "angular-sanitize": "1.3.0",
+    "angular-ui-router": "0.2.11",
+    "bootstrap": "3.2.0",
+    "font-awesome": "4.2.0",
+    "lodash": "2.4.1",
+    "moment": "2.8.3",
+    "todomvc-common": "1.0.1",
+    "todomvc-app-css": "1.0.1"
+  }
+}
