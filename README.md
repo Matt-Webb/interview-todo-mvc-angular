@@ -33,3 +33,7 @@ Consider that you are working in a team with other developers. Use a branching s
 5. Please display on the event row the elapsed time of the match in a human readable format like HH:mm. If the match hasnt started please display the time left to start in a human readable format
 
 6. Compress and transfer the artefact on this remote using these credentials. Deflate the artefact under your home folder and give the script these permissions and change the owner to jenkins
+
+### Design
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
