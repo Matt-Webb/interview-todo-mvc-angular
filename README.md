@@ -25,7 +25,7 @@ Please now continue with the following tasks, in the order of your choosing. Enj
 
 * Explore the gulp tasks and see whether you're happy with them. If you feel anything is missing, please add new tasks or at least note which tasks you would want to add
 
-### Enhancements
+### User story
 ---
 
 * Using WHAPI get all the in-play events and add them as tasks in the the Todo, there shouldnt be any duplicates after reloading and maintaining their state in localstorage is a requirement.
