@@ -30,7 +30,7 @@ Consider that you are working in a team with other developers. Use a branching s
 
 4. Create an extra filter that displays only the events that have already started
 
-5. Please display on the event row the elapsed time of the match in a human readable format like HH:mm. If the match hasnt started please display the time left to start in a human readable format
+5. Please display on the event row within the extra information the elapsed time of the match in a human readable format like HH:mm. If the match hasn't started please display the time left to start in a human readable format. The timer should appear on the same line as the name of the event only when the size of the screen is greater than 728px;
 
 6. Compress and transfer the artefact on this remote using these credentials. Deflate the artefact under your home folder and give the script these permissions and change the owner to jenkins
 
