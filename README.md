@@ -1,6 +1,6 @@
 # Interview Task
 
-This is a standard Todo app from [Todo mvc](http://todomvc.com/) ported into a component based structure. It is using [browserify](http://browserify.org/) ang a [gulp](http://gulpjs.com/) pipeline to bring the project to life. Browserify expects [commonjs](https://nodejs.org/docs/latest/api/modules.html) node's module pattern in order to traverse and concatenate the modules. 
+This is a standard Todo app from [Todo mvc](http://todomvc.com/) ported into a component based structure. It is using [browserify](http://browserify.org/) ang a [gulp](http://gulpjs.com/) pipeline to bring the project to life. Browserify expects [commonjs](https://nodejs.org/docs/latest/api/modules.html) node's module pattern in order to traverse and concatenate the modules.
 
 [Lodash](https://lodash.com/) and [moment](http://momentjs.com/) are already available within the build you can just require them within the module you are working on.
 
@@ -28,17 +28,19 @@ Please now continue with the following tasks, in the order of your choosing. Enj
 ### User story
 ---
 
-* Using WHAPI get all the in-play events and add them as tasks in the the Todo, there shouldnt be any duplicates after reloading and maintaining their state in localstorage is a requirement.
+We want to display the next available matches offered by WH as todo tasks.
 
-* If the task is a William Hill event please add a button of show/hide and on click this should display extra information, as per the design.
+* Add an additional filter to the "All", "Active" and "Complete" ones. This filter will fetch and display the name of the matches.
 
-* Create an extra filter which displays only the in-play tasks
+To retrieve the matches you must use our WH API ![alt text](http://gitlab.williamhill-dev.local/lpapazianis/interview-todo-mvc-angular/blob/master/WHAPI.md "API documentation"). Reloading the page should keep the task till we remove it and it shouldn't have duplicated (reloading the page shouldn't display the same event twice)
 
-* Create an extra filter that displays only the events that have already started
+* Create an extra filter which displays only the in-play tasks.
+
+* Create an extra filter that displays only the events that have already started.
 
 * Please display within the extra details of an event task the elapsed time of the match in a human readable format. If the match hasn't started please display the time left to the start, in a human readable format. If the size of the screen is greater than 728px then the time elapsed should be displayed on the same level as the name of the event.
 
-* Compress and transfer the artefact on this remote using these credentials. Deflate the artefact under your home folder and give the script these permissions and change the owner to jenkins
+* We want to deploy the application in our web server. In order to do that compress and copy to another directory of your choice the minimum amount of files needed to run the app. How will you automate it as a gulp task?
 
-### Design 
+### Design
 ![alt text](http://gitlab.williamhill-dev.local/lpapazianis/interview-todo-mvc-angular/raw/master/designs/to-do-all-01.png "Logo Title Text 1")
