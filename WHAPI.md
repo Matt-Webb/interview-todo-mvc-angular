@@ -7,7 +7,7 @@ http://sandbox.whapi.com/v1/competitions/events/inplay/upcoming
 ```
    GET /v1/competitions/events/inplay/upcoming HTTP/1.1
    Host: sandbox.whapi.com
-   Accept: application/vnd.who.Sportsbook+xml;v=1;charset=utf-8
+   Accept: application/vnd.who.Sportsbook+json;v=1;charset=utf-8
    who-apiKey: l7xx35af30972d934b198debb42dd064c81f
 ```
 
@@ -60,4 +60,3 @@ Example of a response
       }
    }
 ```
-
