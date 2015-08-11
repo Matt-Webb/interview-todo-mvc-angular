@@ -32,7 +32,7 @@ We want to display the next available matches offered by WH as todo tasks.
 
 * Add an additional filter to the "All", "Active" and "Complete" ones. This filter will fetch and display the name of the matches.
 
-To retrieve the matches you must use our WH API [API documentation](WHAPI.md). Reloading the page should keep the task till we remove it and it shouldn't have duplicated (reloading the page shouldn't display the same event twice)
+To retrieve the matches you must use our WH API [API documentation](WHAPI.md). Reloading the page should keep the task till we remove it and it shouldn't have duplicates (reloading the page shouldn't display the same event twice)
 
 * Create an extra filter which displays only the in-play tasks.
 
