@@ -44,3 +44,7 @@ To retrieve the matches you must use our WH API [API documentation](WHAPI.md). R
 
 ### Design
 ![alt text](http://gitlab.williamhill-dev.local/lpapazianis/interview-todo-mvc-angular/raw/master/designs/to-do-all-01.png "Logo Title Text 1")
+=======
+# interview-todo-mvc-angular
+This is an angular oriented interview task on top of the todomcv.com example
+>>>>>>> a0da5bcf59cd022d27744999d3c39d3eee731f24
